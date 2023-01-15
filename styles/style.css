@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Oswald&family=Poppins:wght@400;500&family=Roboto:ital,wght@0,500;1,500&family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+body{
+    font-family: 'Work Sans';
+    margin:0;
+    padding: 0;
+
+}
+/* G3 Architects */
+.first-section{
+    width: 1920px;
+height: 1322px;
+padding: 50px 240px;
+background-color: rgba(255, 144, 14, 0.1);
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.home h2{
+    /* width: 302px; */
+height: 53px;
+font-size: 45px;
+
+}
+.list-item a{
+    text-decoration: none;
+    color: #424242;
+    
+
+    
+}
+.list-item li{
+    list-style: none;
+    margin-left: 30px;
+    font-size: 18px;
+   
+}
+.list-item{
+    display: flex;
+    width: 477px;
+height: 26px;
+margin-top: 50px;
+
+
+}
+/* home buttom */
+
+.home-button{
+    text-align: center;
+    width: 862px;
+height: 225px;
+margin:0 530px;
+margin-top: 130px;
+}
+.home-button h1{
+    margin:20px 0 0 0;
+   color: #131313;
+   font-weight: 700;
+font-size: 64px;
+}
+.home-button p{
+    color: #727272;
+    font-weight: 400;
+font-size: 16px;
+}
+/* button */
+
+.button{
+    width: 180px;
+height: 64px;
+color:#ffffff ;
+background-color: #FF900E;
+border-radius:8px;
+border-color: #ffffff;
+font-size: 20px;
+
+}
+.button-text{
+    width: 131px;
+height: 23px;
+}
+
+/* banner */
+
+.banner{
+    width: 1440px;
+height: 700px;
+border-radius: 8px;
+margin:  150px 240px 240px;
+
+}
+
+
+/* second-section */
+.second-section{
+    display: flex;
+    /* justify-content: space-between; */
+
+
+}
+
+/* team */
+
+.team{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    width: 400px;
+    margin-left: 600px;
+    margin-top: 90px;
+
+}
+
+.team-image{
+    width: 350px;
+    height: 350px;
+    border-radius: 8px;
+}
+
+
+/* team details */
+
+
+.team-details{
+    width: 537px;
+height: 304px;
+margin-top: 300px;
+    margin-right: 500px;
+    margin-left: 400px;
+   
+
+}
+.team-details h2{
+    width: 468px;
+height: 106px;
+font-weight: 500;
+font-size: 55px;
+
+}
+.team-details p{
+    width: 537px;
+height: 78px;
+ color: #727272;
+font-weight: 400;
+font-size: 16px;
+}
+
+.first-color{
+color: #727272;
+}
+.second-color{
+    color:#131313
+}
+.third-color{
+    color: #FF900E;
+}
+
+/* third-section */
+
+.third-section{
+    width: 1440px;
+height: 1059px;
+padding: 240px;
+display: flex;
+}
+.third-section h2{
+    width: 468px;
+height: 106px;
+font-size: 45px;
+font-weight: 700;
+border-left: #FF900E 8px solid;
+border-radius: 20px;
+color: #131313;
+}
+.third-section p{
+    width: 586px;
+height: 78px;
+font-size: 16px;
+font-weight: 400;
+color: #727272;
+}
+/* headline-info */
+
+
+.headline-info{ 
+    width: 586px;
+height: 171px;
+background-color: #ffffff;
+
+
+box-shadow: 0px 0px 20px 5px rgba(245, 245, 245, 0.843);
+border: 80px;
+
+}
+.headline-info h4{
+    width: 252px;
+    height: 23px;
+    color: #131313;
+    font-weight: 600;
+font-size: 20px;
+}
+
+.headline-info p{
+    width: 514px;
+    height: 78px;
+    font-weight: 400;
+font-size: 16px;
+color: #727272;
+}
+.info-gap{
+ margin: 20px;
+ padding-top: 5px;
+}
+.architect{
+margin-left: 300px;
+
+width: 708px;
+height: 982px;
+border-radius: 8px;
+    
+}
+.architect-button{
+    width: 342px;
+height: 200px;
+font-weight: 700;
+font-size: 65px;
+text-align: center;
+color: #FFFFFF;
+background-color: #FF900E;
+border-color:azure;
+padding: 10px;
+margin-top: -70px;
+margin-left: -70px;
+
+}
+.architect-button span {
+    font-weight: 700;
+   
+  
+font-size: 25px;
+}
+
+/* fourth section */
+
+
+.left{
+    margin-left: 240px;
+}
+
+.fourth-section h2{
+    width: 258px;
+height: 53px;
+font-weight: 700;
+font-size: 45px;
+color: #131313;
+}
+
+.fourth-section p{
+    width: 542px;
+    height: 52px;
+    font-weight: 400;
+font-size: 16px;
+color:  #727272;;
+    
+}
+
+
+/* icon */
+
+.icon{
+    display: flex;
+    /* justify-content: space-evenly; */
+    margin: 0 0 300px 300px;
+
+   
+}
+.single-icon-one{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 241.83px;
+    margin-top: 50px;
+    margin-right: 125px;
+    text-align: center;
+    padding-top: 50px;
+height: 241.83px;
+    /* transform: rotate(90deg); */
+}
+.icon-header{
+    width: 55px;
+height: 53px;
+font-weight: 600;
+font-size: 45px;
+margin-left: 5px;
+gap: 10px;
+
+}
+
+
+.single-icon-one p{
+    width: 169px;
+height: 81px;
+text-align: center;
+padding-left: 40px;
+}
+.single-icon-one p span{
+    text-align: center;
+    color: #424242;
+    padding-right: 25px;
+}
+
+
+
+
+.single-icon-one img{
+    transform: rotate(0deg);
+    transition: transform 500ms ease;
+}
+
+.single-icon-one img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+.left-icon{
+    margin-left: 40px;
+    /* text-align: center; */
+}
+
+
+
+-------------------------
+/* fifth section heading */
+-------------------------
+.fifth-section{
+    
+    margin-bottom: 1;
+    padding-bottom: 0 auto;
+    height: 500px;
+    background-color: #FF900E;
+}
+
+.fifth-section-heading{
+    width: 542px;
+    height: 129px;
+
+}
+
+.fifth-section-heading h2{
+    width: 327px;
+height: 53px;
+font-weight: 700;
+font-size: 45px;
+color: #131313;
+margin-left: 100px;
+}
+
+.fifth-section-heading p{
+    width: 542px;
+height: 52px;
+font-weight: 400;
+font-size: 16px;
+color:#727272;
+}
+
+.center{
+    
+    /* margin-right: 690px; */
+    /* margin-left:  1000px;;
+    text-align: center;
+    margin:100px; */
+    margin-right: 690px;
+    margin-left: 690px;
+    text-align: center;
+    margin-bottom: 60px;
+ 
+   
+}
+
+
+/* company */
+
+
+.company{
+ display: flex;
+ margin: 0 0 150px 100px;
+
+}
+
+.single-company{
+    width: 166.76px;
+height: 50px;
+margin-left: 110px;
+margin-right: 50px;
+
+}
+.last-item{
+    width: 1440px;
+height: 100px;
+background: #FFF4E7;
+border-radius: 8px;
+text-align: center;
+justify-items: center;
+margin: 0 0 240px 240px;
+}
+.last-item p{
+    width: 620px;
+height: 23px;
+font-weight: 400;
+font-size: 20px;
+color: #424242;
+margin: 410px;
+margin-top: 100px;
+padding: 30px;
+
+}
+
+/* icon hover */
+
+
+
+
+
+/* media queari */
+
+@media screen and (max-width:576px) {
+    .first-section, .home, .home-button, .banner{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        flex-direction: column;
+        margin-left: -100px;
+    }
+    
+}
